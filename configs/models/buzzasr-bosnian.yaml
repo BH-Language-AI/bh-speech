@@ -1,0 +1,5 @@
+id: BuzzASR/bosnian
+revision: a02491a35efbad389ee478aac0b6b81d174b651e
+license: mit
+role: reference
+eval_fleurs: {cer: 3.59, wer: 13.46}

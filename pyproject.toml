@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bh-speech"
+version = "0.1.0"
+description = "BH-Speech: otvoreni govorni AI za bosanski jezik"
+requires-python = ">=3.10"
+dependencies = ["pandas", "pyarrow", "soundfile"]
+
+[project.optional-dependencies]
+api = ["fastapi", "uvicorn"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
