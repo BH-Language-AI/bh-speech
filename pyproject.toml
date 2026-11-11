@@ -14,3 +14,7 @@ api = ["fastapi", "uvicorn"]
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
