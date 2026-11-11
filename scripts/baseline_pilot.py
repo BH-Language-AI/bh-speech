@@ -32,6 +32,8 @@ def main():
     from bh_speech.evaluation import cer, wer
 
     df = load_samples(args.data, args.n)
+    import os
+    os.makedirs(os.path.dirname(os.path.abspath(args.out)), exist_ok=True)
     results = []
     for model_id in ['openai/whisper-large-v3', 'BuzzASR/bosnian']:
         local = '/tmp/opencode/models/' + model_id.split('/')[-1].replace('-', '_')
@@ -50,6 +52,8 @@ def main():
             results.append({'model': model_id, 'i': int(i),
                             'wer': wer(hyp, ref), 'cer': cer(hyp, ref),
                             'hyp': hyp[:200], 'ref': ref[:200]})
+            with open(args.out, 'w') as f:
+                json.dump(results, f, indent=1, ensure_ascii=False)
         dt = time.time() - t0
         print(f'{model_id}: gotovo za {dt / 60:.1f} min', flush=True)
         del model, proc, pipe
