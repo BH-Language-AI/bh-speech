@@ -1,0 +1,12 @@
+{
+ "openai/whisper-large-v3": {
+  "n": 50,
+  "WER": 0.1608,
+  "CER": 0.0244
+ },
+ "BuzzASR/bosnian": {
+  "n": 50,
+  "WER": 0.1472,
+  "CER": 0.0241
+ }
+}
