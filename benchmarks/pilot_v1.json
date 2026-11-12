@@ -1,0 +1,50 @@
+[
+ {
+  "model": "openai/whisper-large-v3",
+  "i": 0,
+  "wer": 0.13636363636363635,
+  "cer": 0.06015037593984962,
+  "hyp": " S obzirom na to da su učenici često publika s najviše kritika, pisac bloga počinje tešće po obočanju pisanja kako bi izbjegao kritike.",
+  "ref": "s obzirom na to da su učenici često publika s najviše kritika pisac bloga počinje težiti poboljšanju pisanja kako bi izbjegao kritike"
+ },
+ {
+  "model": "openai/whisper-large-v3",
+  "i": 1,
+  "wer": 0.37142857142857144,
+  "cer": 0.1606425702811245,
+  "hyp": " Slabovidni skijaš Maciej Krezel iz Poljske i njegov vodič Anao Garzinska završili su na 13. mjestu u kategoriji super veleslaloma. Južnokoreanac Yong Seo Park završio je na 24. mjestu u utrci super v",
+  "ref": "slabovidni skijaš maciej krezel iz poljske i njegov i vodič anna ogarzynska završili su na trinaestom mjestu u kategoriji super-veleslaloma. južnokoreanac jong seork park završio je na dvadeset četvrt"
+ },
+ {
+  "model": "openai/whisper-large-v3",
+  "i": 2,
+  "wer": 0.15,
+  "cer": 0.03937007874015748,
+  "hyp": " Car je prve zabave behara trešnje u Japanu organizirao samo za sebe i osled članova aristokratije okupljene oko carskog dvora.",
+  "ref": "car je prve zabave behara trešnje u japanu organizoirao samo za sebe i ostale članove aristokratije okupljene oko carskog dvora"
+ },
+ {
+  "model": "BuzzASR/bosnian",
+  "i": 0,
+  "wer": 0.22727272727272727,
+  "cer": 0.09022556390977443,
+  "hyp": "s obzirom na to da su učenici često publika s najviše kritika pisar s bloga počinje tešće u obočanju pisanja kako bi izbjegao kritike",
+  "ref": "s obzirom na to da su učenici često publika s najviše kritika pisac bloga počinje težiti poboljšanju pisanja kako bi izbjegao kritike"
+ },
+ {
+  "model": "BuzzASR/bosnian",
+  "i": 1,
+  "wer": 0.2857142857142857,
+  "cer": 0.1566265060240964,
+  "hyp": "zlopovidni skijaš maciej krezel iz poljske i njegov vodič anna ogorzinska završili su na 13. mjestu u kategoriji superveleslaloma. južnokoreanac jeong seok berk završio je na 24. mjestu u utrci superv",
+  "ref": "slabovidni skijaš maciej krezel iz poljske i njegov i vodič anna ogarzynska završili su na trinaestom mjestu u kategoriji super-veleslaloma. južnokoreanac jong seork park završio je na dvadeset četvrt"
+ },
+ {
+  "model": "BuzzASR/bosnian",
+  "i": 2,
+  "wer": 0.2,
+  "cer": 0.03937007874015748,
+  "hyp": "car je prve zabave behara trešnje u japanu organizirao samo za sebe i ostale članovi aristokrati okupljeni oko carskog dvora",
+  "ref": "car je prve zabave behara trešnje u japanu organizoirao samo za sebe i ostale članove aristokratije okupljene oko carskog dvora"
+ }
+]
