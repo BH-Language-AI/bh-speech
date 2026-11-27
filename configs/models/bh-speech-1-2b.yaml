@@ -1,0 +1,16 @@
+id: BH-Language-AI/bh-speech-1-2b
+revision: null
+license: Apache-2.0
+role: target
+status: objavljen
+base: openai/whisper-large-v3
+base_revision: 06f233fe06e710322aca913c1bc4249a0d71fce1
+method: full-finetune-bf16
+data: google/fleurs bs_ba (train 3091 / dev 400 / test 925, CC-BY-4.0)
+metrics:
+  baseline_dev100: {wer: 0.1814, cer: 0.0696}
+  dev400: {wer: 0.1492, cer: 0.0552}
+  test925_frozen: {wer: 0.1483, cer: 0.0531}
+reference:
+  BuzzASR/bosnian: {wer: 0.1346, cer: 0.0359}
+compute: LUMI dev-g MI250X, job 24048537

@@ -1,7 +1,8 @@
 # BH-Speech
 
 Bosnian and Balkan Speech AI — otvoreni govorni AI, prvo ASR.
-**Status: Faza 0 — istraživanje.** Bez treninga, bez redistribucije tuđeg audija.
+**Status: v0 OBJAVLJEN (2026-11-27).** Prvi bosanski ASR: `BH-Language-AI/bh-speech-1-2b`
+(whisper-large-v3 full FT, FLEURS test WER 14.83 / CER 5.31) — vidi `docs/RUN_V0.md`.
 
 - Kolekcija: https://huggingface.co/collections/BH-Language-AI/bh-speech
 - Kontakt: xnetba@gmail.com
